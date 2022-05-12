@@ -1,0 +1,36 @@
+.all__work {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+.work {
+  background: #ffffff;
+  background: center / contain no-repeat url(../../../public/images/Zeronet_logo.png);
+  border: 3px solid #a1a1a1;
+  border-radius: 4px;
+  width: 300px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hello {
+  display: none;
+}
+.work:hover {
+  border: 3px solid #ff0000;
+  background: none;
+  .hello {
+    text-align: center;
+    margin: 0;
+    display: block;
+    object-fit: cover;
+
+  }
+}
+.for-video{
+  width: 296px;
+  height: 154px;
+    object-fit: cover;
+    margin-bottom: -6px;
+}

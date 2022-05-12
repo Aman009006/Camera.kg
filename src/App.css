@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Koulen&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  
+}a{
+    text-decoration: none !important;
+  }
 .App {
   text-align: center;
 }
@@ -35,4 +45,265 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main__page {
+  width: 100%;
+  height: 100vh;
+  /* background: #000; */
+  position: relative;
+}
+.main__page-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.nav_img {
+  width: 250px;
+  margin: 0px;
+}
+.navigation {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+  z-index: 100;
+}
+.nav__link {
+  margin: 0px;
+  color: white;
+}
+ul {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 100%;
+}
+li {
+  margin: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  margin: 0px;
+}
+.now__btn {
+  color: black;
+  width: 113px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 1224px;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  padding: 10px;
+}
+.title {
+  text-align: start;
+  position: absolute;
+  bottom: 15%;
+  left: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+.descr {
+  text-align: start;
+  position: absolute;
+  bottom: 5%;
+  left: 0px;
+  width: 447px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.bureger__menu {
+  display: none;
+}
+
+.bm-burger-button{
+  display: none;
+}
+.bgnone{
+  display: none;
+}
+.nav__ul {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 920px) {
+  .bgnone{
+    display: block;
+  }
+ 
+ .bm-burger-button{
+    display: block;
+  }
+  .now__btn{
+    width: 80px;
+    height: 40px;
+  }
+  .bureger__menu {
+    display: block;
+    margin: 0;
+  }
+  .nav__ul {
+    display: none;
+  }
+  /* .nav_img {
+    width: 150px;
+  } */
+  .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 58px;
+    width: 200px;
+    margin-left: 10px;
+  }
+  .descr {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    width: 340px;
+    margin-left: 10px;
+    bottom: 4%;
+  }
+}
+.mob {
+  color: black;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 58px;
+}
+.offcanvas-body {
+  margin: 0px;
+}
+.offcanvas-header{
+  margin: 0px;
+}
+
+
+
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #000000;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 25px;
+  top: 49px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffffff;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #ffffff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  color: black;
+ 
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #000000;
+  text-align: left;
+  /* margin-top: 15px; */
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 58px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.bm-menu-wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bm-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
 }

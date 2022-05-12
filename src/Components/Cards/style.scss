@@ -1,0 +1,32 @@
+.cards__content {
+    display: flex;
+    flex-wrap: wrap;
+  margin-top: 120px;
+  margin-bottom: 175px;
+  .card {
+      margin-top: 16px;
+    width: 288px;
+    height: 295px;
+    border-radius: 14px;
+  }
+  .card__text {
+    margin: 0px;
+    margin-top: -65px;
+    p {
+      text-align: left;
+      margin-left: 28px;
+      color: white;
+    }
+    .name {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 2px;
+      // margin-bottom: 7px;
+    }
+  }
+}
+
+

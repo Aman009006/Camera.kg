@@ -1,0 +1,66 @@
+.slider__content{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.slider__img{
+    max-width: 550px;
+    width: 100%;
+    margin-right: 15px;
+}
+.swiper-button-next{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+
+}
+#nextButton{
+    background: #000;
+    cursor: pointer;
+    z-index: 99;
+    width: 44px;
+    height: 44px !important;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#previousButton{
+    background: #000;
+    cursor: pointer;
+    z-index: 99;
+    width: 44px;
+    height: 44px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#previousButton:hover{
+    background: red;
+
+}
+#nextButton:hover{
+    background: red;
+}
+.buttons{
+    display: flex;
+    margin: 0;
+    
+}
+.slider__controller{
+    display: flex;align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.slider__title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+margin: 0;
+text-align: left;
+
+color: #242424;
+}
