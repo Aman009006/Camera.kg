@@ -14,7 +14,7 @@ function Footer() {
               <p className="adres s"><a href="mailto:ask@htmlbook.ru">Camera01Ekma@gmail</a></p>
             </div>
           </div>
-          <p className="adres s">Заказать звонок</p>
+          <p className="adres s"><a href="#order">Заказать звонок</a></p>
         </div>
         <div className="footer__adres">
           <p className="adres">Бишкек,Жибек-Жолу 33/21</p>
