@@ -7,11 +7,13 @@ function Footer() {
       <div className="container footer__content">
         <div className="footer__links">
           <div className="mail">
-            <p className="adres s"><a href="tel:070456565">+996709155155</a></p>
+          <p className="adres s"><a href="mailto:ask@htmlbook.ru">Camera01Ekma@gmail</a></p>
+
 
             <div>
               {" "}
-              <p className="adres s"><a href="mailto:ask@htmlbook.ru">Camera01Ekma@gmail</a></p>
+            <p className="adres s"><a href="tel:070456565">+996709155155</a></p>
+
             </div>
           </div>
           <p className="adres s"><a href="#order">Заказать звонок</a></p>
@@ -21,11 +23,11 @@ function Footer() {
           <div className="social">
             <a href="https://www.whatsapp.com/?lang=ru" className="linkst">
               {" "}
-              <img src="/images/what.webp" target="_blank" alt="" /> <p>whatsapp</p>
+              <img src="/images/what.webp" target="_blank" alt="" /> <p>Whatsapp</p>
             </a>
             <a href="https://web.telegram.org/k/" target="_blank" className="linkst">
               {" "}
-              <img src="/images/teleg.png" alt="" /> <p>telegram</p>
+              <img src="/images/teleg.png" alt="" /> <p>Telegram</p>
             </a>
           </div>
         </div>

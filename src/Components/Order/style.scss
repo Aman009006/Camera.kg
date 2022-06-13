@@ -157,12 +157,15 @@ width: 116px;
 height: 37px;
 }
 .types{
+  margin: 0;
   display: flex;
-  justify-content: start;
+  flex-wrap: wrap;
+  width: 500px;
   align-items: center;
   div{
     margin: 0;
     margin-right: 6px;
+    margin-top: 10px;
   }
 }
 .type__video{
